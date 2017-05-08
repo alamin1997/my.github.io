@@ -1,0 +1,126 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+/* HEADER BG IMG CSS */
+
+#main_header_img{
+	background-image: url("img/bg.jpg");
+	background-repeat: on-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	height: 610px;
+	width: 100%;
+	filter: brightness(65%);
+}
+
+/* HEADER CONTENT CSS */
+
+#main_header_content{
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	left: ;
+	width: 100%;
+	height: 100%;
+}
+.hero_content{
+	color: #fff;
+	width: 650px;
+	margin-left: 30px;
+	margin-top: 100px;
+}
+.hero_content h2{
+	font-size: 50px;
+	margin-bottom: 15px;
+}
+.hero_content p{
+	font-size: 19px;
+	
+}
+.hero_click{
+	margin-top: 40px;
+}	
+.hero_click a{
+	
+	color: #fff;
+	padding: 15px 20px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 17px;
+    background-color: #00C1F0;
+	font-weight: bold;
+	border-r
+}
+.hero_click a:hover{
+	background-color: ;
+	border: 3px solid #fff;
+}
+
+/* HEADER MANU CSS */
+nav{
+	float: right; !importent
+}
+.header_manu{
+	float: right;
+	list-style: none;
+	background: yellow;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.header_manu li{
+	float: left;
+}
+.header_manu li a{
+	color: red;
+	display: block;
+	padding: 0 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.header_manu:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/* ARTICAL STARTING 
+==============================*/
+article{
+	height: 100%;
+	width: 100%;
+	margin-top: 55px;
+}
+
+/* =======FIRST CONTENT======= */
+.cotent_pg_img img{
+	width: 450px;
+	height: 540px;
+	float: right;
+}
+
+.content_pg_artical{
+	float: left;
+	background: yellow;
+	width: 450px;
+	height: 100%;
+}
+.content_pg_artical:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
